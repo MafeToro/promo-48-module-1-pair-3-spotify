@@ -1,0 +1,24 @@
+.header {
+    background-color: black;
+}
+
+.logo {
+    width:100px;
+    margin: 10px;
+}
+
+.nav {
+    color: white;
+    display: inline-block;
+    text-align: right;
+}
+
+.item {
+    display: inline-block;
+}
+
+.hero {
+    background-image: url(../Images/Image20250203125734.png);
+    background-color: ;
+
+}
