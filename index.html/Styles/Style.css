@@ -1,5 +1,8 @@
 .header {
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -9,16 +12,45 @@
 
 .nav {
     color: white;
-    display: inline-block;
-    text-align: right;
+    display: flex;
+    justify-content: space-around;
 }
 
 .item {
     display: inline-block;
+    margin: 100 px;
+    border: solid 2px pink;
 }
 
 .hero {
     background-image: url(../Images/Image20250203125734.png);
-    background-color: ;
+    background-color: blue;
+    height: 50vh;
+   }
 
+.list {
+    padding: 0;
+}
+
+.iconos {
+    width: 200 px;
+    margin: 5px; 
+}
+
+.beneficios {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    display:flex;
+    justify-content: center;
 }
