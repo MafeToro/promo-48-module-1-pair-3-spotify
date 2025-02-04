@@ -40,7 +40,8 @@
 .beneficios {
     display: flex;
     flex-direction: column;
-    width: 15%;
+    min-width: 15%;
+    max-width: 20%;
 }
 
 .articles {
