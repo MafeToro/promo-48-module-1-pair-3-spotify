@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
@@ -14,26 +16,63 @@
     color: white;
     display: flex;
     justify-content: space-around;
+    padding-right: 10px;
 }
 
 .item {
     display: inline-block;
     margin: 100 px;
-    border: solid 2px pink;
 }
 
 .hero {
     background-image: url(../Images/Image20250203125734.png);
-    background-color: blue;
+    background-color: #529cf1;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
    }
+
+.title-hero {
+    color: white;
+    position: top;
+
+}
+
+.subtitle-hero {
+    color: white;
+
+}
+.button {
+    width: fit-content;
+    padding: 10px;
+    padding-inline: 30px;
+    border-radius: 20px;
+    background-color: #26b758;
+    border: none;
+    color: white;
+}
+
+.terminos {
+    color: white;
+}
 
 .list {
     padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.sub-section {
+    padding: 20px;
 }
 
 .iconos {
-    width: 200 px;
+    width: 200px;
     margin: 5px; 
 }
 
@@ -55,3 +94,21 @@
     display:flex;
     justify-content: center;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: grey;
+    padding: 10px;
+    align-items: center;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 10px;
+
+}
+    
