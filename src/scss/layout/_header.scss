@@ -1,5 +1,36 @@
-.page__header {
+.header {
+  background-color: black;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.menu {
+  display: none;
+
+}
+
+.logo {
+  width:100px;
+  margin: 10px;
+}
+
+.nav {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 10px;
+}
+
+.item {
+  display: inline-block;
+  margin: 100 px;
+}
+
+.list {
+  padding: 0;
+  display: flex;
+  gap: 15px;
 }

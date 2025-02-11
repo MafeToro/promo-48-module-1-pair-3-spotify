@@ -1,143 +1,24 @@
-.header {
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-}
+@use "layout/_reset";
+@use "layout/_header";
+@use "layout/_hero";
+@use "layout/_articles";
+@use "layout/_footer";
 
-.menu {
-    display: none;
 
-}
-
-.logo {
-    width:100px;
-    margin: 10px;
-}
-
-.nav {
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    padding-right: 10px;
-}
-
-.item {
-    display: inline-block;
-    margin: 100 px;
-}
-
-.hero {
-    background-image: url(./images/Image20250203125734.png);
-    background-color: #529cf1;
-    background-position: right;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 30px;
-   }
-
-   .articles1 {
-    display: flex;
-    flex-direction: row;
-   }
-
-   .articles2 {
-    display: flex;
-    flex-direction: row;
-   }
-
-.title-hero {
-    color: white;
-    position: top;
-
-}
-
-.subtitle-hero {
-    color: white;
-
-}
-.button {
-    width: fit-content;
-    padding: 10px;
-    padding-inline: 30px;
-    border-radius: 20px;
-    background-color: #26b758;
-    border: none;
-    color: white;
-}
-
-.terminos {
-    color: white;
-}
-
-.list {
-    padding: 0;
-    display: flex;
-    gap: 15px;
-}
-
-.sub-section {
-    padding: 20px;
-}
-
-.iconos {
-    width: 200px;
-    margin: 5px; 
-}
-
-.beneficios {
-    display: flex;
-    flex-direction: column;
-}
-
-.articles {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.title {
-    display:flex;
-    justify-content: center;
-}
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    color: grey;
-    padding: 10px;
-    align-items: center;
-}
-
-.footer-list{
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    gap: 10px;
-
-}
-    /* Tablet */
+/* Tablet */
 @media (max-width: 768px) {
 
-.articles {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
+    .articles {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+
+    .beneficios {
+        width: 50%;
+    }
 }
 
-.beneficios {
-    width: 50%;
-}
-}
-    
 /* Mobile */
 @media (max-width: 480px) {
 
@@ -146,16 +27,16 @@
     }
 
     .menu {
-    display: block;
-    width: 50px;
-    margin: 10px;
+        display: block;
+        width: 50px;
+        margin: 10px;
     }
 
     .menu img {
         width: 100%;
-        }
-
-        .hero {
-            background-image: none;
-        }
     }
+
+    .hero {
+        background-image: none;
+    }
+}

@@ -1,10 +1,15 @@
-@use '../core/variables' as vars;
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: grey;
+    padding: 10px;
+    align-items: center;
+}
 
-.page__footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-    padding: 1rem;
-    color: vars.$color-secondary;
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 10px;
 }

@@ -1,0 +1,36 @@
+.hero {
+    background-image: url(./images/Image20250203125734.png);
+    background-color: #529cf1;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+   }
+
+.title-hero {
+    color: white;
+    position: top;
+
+}
+
+.subtitle-hero {
+    color: white;
+
+}
+.button {
+    width: fit-content;
+    padding: 10px;
+    padding-inline: 30px;
+    border-radius: 20px;
+    background-color: #26b758;
+    border: none;
+    color: white;
+}
+
+.terminos {
+    color: white;
+}
