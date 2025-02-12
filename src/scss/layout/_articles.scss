@@ -3,26 +3,18 @@
     justify-content: center;
 }
 
-.articles1 {
-    display: flex;
-    flex-direction: row;
-}
-
-.articles2 {
-    display: flex;
-    flex-direction: row;
-}
-
 .beneficios {
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .articles {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .iconos {
@@ -32,4 +24,7 @@
 
 .sub-section {
     padding: 20px;
+    align-content: center;
+    justify-content: center;
+    width: auto;
 }

@@ -5,20 +5,6 @@
 @use "layout/_footer";
 
 
-/* Tablet */
-@media (max-width: 768px) {
-
-    .articles {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100vw;
-    }
-
-    .beneficios {
-        width: 50%;
-    }
-}
-
 /* Mobile */
 @media (max-width: 480px) {
 
@@ -39,4 +25,12 @@
     .hero {
         background-image: none;
     }
+
+    .articles {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        }
 }
