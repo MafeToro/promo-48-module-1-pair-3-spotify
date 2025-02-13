@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./scss/main.scss">
+</head>
+
+<body>
+    <h1>Regístrate gratis para escuchar</h1>
+    <a href="">Registrarte con Facebook</a>
+    <a href="">Registrarte con Google</a>
+    <p>o</p>
+    <h2>Registrarte con tu correo electrónico</h2>
+
+    <fieldset class="personaldata">
+        <form class="form" action="https://formspree.io/f/mjkgejvz">
+            <label for="email">¿Cuál es tu correo electrónico?</label>
+            <input id="email" type="email" name="email" placeholder="Pon tu correo electrónico" required>
+
+            <label for="email">Confirma el correo electrónico</label>
+            <input id="email" type="email" name="email" placeholder="Vuelve a poner tu correo electrónico" required>
+
+
+            <label for="psw">Crea una contraseña</label>
+            <input id="psw" type="password" name="psw" placeholder="Crea una contraseña" required>
+
+            <div>
+                <label for="name">¿Cómo quieres que te llamemos?</label>
+                <input id="name" type="text" name="name" placeholder="Pon un nombre de perfil">
+                <p>Esto aparece en tu perfil</p>
+            </div>
+
+            <div>
+                <label for="date">¿Cuál es tu fecha de nacimiento?</label>
+                <label for="day">Día</label>
+                <input id="day" type="day" name="day" placeholder="DD" pattern="^(0?[1-9]|[12][0-9]|3[01])$"
+                    title="Ingrese un día válido (01-31)">
+                <label for="month">Mes</label>
+                <select name="month" id="month" placeholder="Mes">
+                    <option value="">Mes</option>
+                    <option value="Jan">Enero</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Marzo</option>
+                </select>
+                <label for="year">Año</label>
+                <input type="number" id="year" name="year" placeholder="AAAA" min="1950" max="2025">
+            </div>
+        </form>
+        <input type="submit" value="Enviar">
+    </fieldset>
+
+
+
+</body>
+
+</html>

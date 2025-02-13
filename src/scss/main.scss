@@ -3,6 +3,7 @@
 @use "layout/_hero";
 @use "layout/_articles";
 @use "layout/_footer";
+@use "layout/forms";
 
 
 /* Mobile */
@@ -32,5 +33,5 @@
         grid-template-rows: 1fr 1fr 1fr 1fr;
         justify-content: center;
         align-items: center;
-        }
+    }
 }
